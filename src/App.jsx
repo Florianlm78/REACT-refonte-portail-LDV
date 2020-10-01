@@ -4,12 +4,14 @@ import './App.css';
 
 import Cell from './components/Cell';
 import Data from './components/StockData';
+import Title from './components/Title';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Title />
         <Data />
         <Cell />
         <img src={logo} className="App-logo" alt="logo" />
