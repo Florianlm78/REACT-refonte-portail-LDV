@@ -1,3 +1,7 @@
+*{
+  list-style-type: none;
+}
+
 .App {
   text-align: center;
 }
@@ -30,6 +34,24 @@
 
 .titre-page{
   color: red;
+}
+
+nav {
+  color: black;
+  font-weight: 400;
+  background-color: sandybrown;
+  height: 50px;
+}
+
+ul{
+  display: flex;
+}
+
+a{
+  margin-left: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 @keyframes App-logo-spin {

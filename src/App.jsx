@@ -1,32 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
-import Cell from './components/Cell';
-import Data from './components/StockData';
-import Title from './components/Title';
+
+
+import {BrowserRouter as Router,
+        Route,
+        Link,
+        Switch,
+        } from 'react-router-dom';
+
+import Calendrier from './routes/Calendrier';
+import Salles from './routes/Salles';
+import Home from './routes/Home';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Title />
-        <Data />
-        <Cell />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div className="nav">
+          <header>
+            <section>
+              <h1> Refonte portail </h1>
+            </section>
+            <nav>
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/calendrier">Calendrier</Link></li>
+                <li><Link to="/salles">Salles</Link></li>
+              </ul>
+            </nav>
+          </header>
+          <main>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/calendrier" component={Calendrier} />
+              <Route path="/salles" component={Salles} />
+            </Switch>
+          </main>
+        </div>
+      </Router >
+      
     </div>
   );
 }
