@@ -10,8 +10,9 @@ class Data extends Component {
             {stockData.map((datas, key) => {
                 return (
                 <div key={key}>
-                    {console.log(datas.vcalendar[0].vtimezone[0].standard[0].rrule)}
-                <h1>Hello {datas.vcalendar[0].vtimezone[0].standard[0].rrule}</h1>
+                    {console.log(datas.vcalendar[0].vevent[1].location)}
+                <h1>{datas.vcalendar[0].calname}</h1>
+                <p>{datas.vcalendar[0].vevent[1].location}</p>
                 </div>
                 )
             })}

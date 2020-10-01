@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { stockData } from "../data";
 
 class Title extends Component {
     render(){
         return(
-            <h1 className='titre-page'>Occupation des salles</h1>
+            <div>
+            {stockData.map((datas, key) => {
+                return (
+                <div key={key}>
+                    {console.log(datas.vcalendar[0].calname)}
+                <h1>{datas.vcalendar[0].calname}</h1>
+                </div>
+                )
+            })}
+
+        </div>
         )
     }
+        
+
     
 }
 
