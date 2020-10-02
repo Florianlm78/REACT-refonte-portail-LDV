@@ -1,0 +1,11 @@
+.calendarDays {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;;
+}
+
+.Card {
+        width:  '18px' ;
+        height: '100vh';
+        border: 'solid';
+}
