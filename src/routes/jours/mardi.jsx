@@ -11,8 +11,6 @@ class Mardi extends Component {
 }
   render(){
 
-    
-    const cards = Object.keys(this.state.salles.MARDI).map(key => <Amphi key={key} details={this.state.salles[key]} />);
 
       return(
           <div>
@@ -20,7 +18,7 @@ class Mardi extends Component {
                     salles.MARDI[0].Amphi.map((salle) => {
                         return (
                           <div>
-                            {console.log(salles.MARDI[0])}
+                             
                             <h4>{salle.nom}</h4>
 
                           </div>
