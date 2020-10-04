@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import salles from '../salles';
-import Cellule from './Cell';
+import Cellule from './Amphi';
 
 class Tableau extends Component {
     state = {
