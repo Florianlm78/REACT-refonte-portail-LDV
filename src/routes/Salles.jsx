@@ -1,29 +1,49 @@
 import React from 'react';
-import '../css/salles.css';
-import logo from '../logo.svg';
+import '../css/jours.css';
+import {BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  } from 'react-router-dom';
 
-import Cell from '../components/Cell';
-import Data from '../components/StockData';
-import Title from '../components/Title';
+
+import Lundi from './jours/Lundi';
+import Mardi from './jours/Mardi';
+import Mercredi from './jours/Mercredi';
+import Jeudi from './jours/Jeudi';
+import Vendredi from './jours/Vendredi';
 
 function Salles() {
   return(
   <header className="App-header">
-        <Title />
-        <Data />
-        <Cell />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+<Router>
+        <div className="nav">
+          
+            <nav className="salle-nav">
+              <ul className="salle-ul">
+                <li><Link to="/lundi">Lundi</Link></li>
+                <li><Link to="/mardi">Mardi</Link></li>
+                <li><Link to="/mercredi">Mercredi</Link></li>
+                <li><Link to="/jeudi">Jeudi</Link></li>
+                <li><Link to="/vendredi">Vendredi</Link></li>
+              </ul>
+            </nav>
+      
+          <main>
+            <Switch>
+              <Route exact path="/lundi" component={Lundi} />
+              <Route path="/mardi" component={Mardi} />
+              <Route path="/mercredi" component={Mercredi} />
+              <Route path="/jeudi" component={Jeudi} />
+              <Route path="/vendredi" component={Vendredi} />
+            </Switch>
+          </main>
+        </div>
+      </Router >
+
+
+
       </header>
     )
 }

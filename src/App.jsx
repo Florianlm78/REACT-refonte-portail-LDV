@@ -21,21 +21,13 @@ function App() {
       <Router>
         <div className="nav">
           <header>
-            <div className="container-fluid">
-
-            <section>
-              <h1> Refonte portail </h1>
-            </section>
-            
-            <nav className="navbar navbar-expand-lg"> 
-              
-              <ul>
+            <nav className="home-nav">
+              <ul className="home-ul">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/calendrier">Calendrier</Link></li>
                 <li><Link to="/salles">Salles</Link></li>
               </ul>
             </nav>
-            </div>
           </header>
           <div className="container-fluid">
           <main>

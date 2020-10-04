@@ -1,0 +1,44 @@
+
+main{
+    height: 100vh;
+}
+.salle-ul{
+    display: flex;
+    
+}
+section article div{
+    background-color: #242424;
+}
+section article:nth-child(2) div{
+   
+    width: 20%;
+}
+section{
+    height: 100vh;
+}
+section article{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+section article:first-child div{
+    width: calc((100% - 20px) / 4);
+}
+section article div div{
+    display: flex;
+  
+}
+h2{
+    text-align: left;
+    color: white;
+
+}
+
+
+section article:last-child div{
+    flex-wrap: wrap;
+
+   
+   }
+
