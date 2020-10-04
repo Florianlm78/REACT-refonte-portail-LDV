@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import '../App.css';
+import '../salles';
 
-const Cellule = ({title}) => (
-    <div>
-        <h2>{title}Bonjour</h2>
-    </div>
-);
+class Cellule extends Component {
+    render(){
+       
+
+        return(
+
+            <div className="card">
+        
+        <h2>{console.log(this.props.details.nom)}</h2> 
+        <p>{console.log(this.props.details.disponibility)}</p>               
+            </div>
+        )
+    }
+        
+
+}
 
 export default Cellule;
+
+

@@ -3,7 +3,7 @@ import '../css/calendrier.css';
 
 const Calendrier = () => (
   <p>
-    home works!
+    Calendrier works!
 </p>
 )
 

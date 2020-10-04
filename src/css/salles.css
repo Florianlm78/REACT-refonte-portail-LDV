@@ -1,0 +1,14 @@
+.card
+{
+    background-color: rgb(25, 0, 255);
+    border: solid 1px white;
+    height: 180px;
+    width: 250px;
+}
+
+table,
+td {
+
+    padding: 0 10px;
+}
+
