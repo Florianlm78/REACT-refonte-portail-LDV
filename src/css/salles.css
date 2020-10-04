@@ -6,6 +6,10 @@
     width: 250px;
 }
 
+.cards{
+    display: flex;
+}
+
 table,
 td {
 

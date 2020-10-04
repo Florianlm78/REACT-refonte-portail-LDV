@@ -14,10 +14,12 @@ class Tableau extends Component {
         console.log(cards);
     
 
-        return(
+        return( 
             <div className="box">
                 <div className="cards">
                     {cards}
+
+ 
                 </div>
             </div>
         )

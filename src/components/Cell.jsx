@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import '../App.css';
-import '../salles';
+import salles from '../salles';
+import { Tableau } from '../components/Table';
 
 class Cellule extends Component {
     render(){
-       
+      
 
         return(
-
-            <div className="card">
-        
-        <h2>{console.log(this.props.details.nom)}</h2> 
-        <p>{console.log(this.props.details.disponibility)}</p>               
-            </div>
+            salles.IIM.map((salle) => {
+                return(
+                    <div className="card">
+                        <h4>{salle.nom}</h4>
+                    </div>
+                )
+            })
+            
         )
     }
         
@@ -20,5 +23,4 @@ class Cellule extends Component {
 }
 
 export default Cellule;
-
 
