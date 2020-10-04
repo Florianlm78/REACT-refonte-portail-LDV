@@ -7,11 +7,11 @@ import {BrowserRouter as Router,
   } from 'react-router-dom';
 
 
-import Lundi from './jours/lundi';
-import Mardi from './jours/mardi';
-import Mercredi from './jours/mercredi';
-import Jeudi from './jours/jeudi';
-import Vendredi from './jours/vendredi';
+import Lundi from './jours/Lundi';
+import Mardi from './jours/Mardi';
+import Mercredi from './jours/Mercredi';
+import Jeudi from './jours/Jeudi';
+import Vendredi from './jours/Vendredi';
 
 function Salles() {
   return(

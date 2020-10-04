@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import salles from '../salles';
 import { Tableau } from './Table';
+import Mardi from '../routes/jours/Mardi'
 
 class Cellule extends Component {
     render(){
@@ -9,15 +10,8 @@ class Cellule extends Component {
 
         return(
             <div>
-                {
-                    salles.LUNDI.map((salle) => {
-                        return(
-                            <div>
-                                <h4>{salle.Amphi}</h4>
-                            </div>
-                        )
-                    })
-                }
+
+                
             </div>
             
         )

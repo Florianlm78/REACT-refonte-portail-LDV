@@ -9,21 +9,21 @@ module.exports =
            matin:true,
            aprem:false,  
        },
-       {
-        nom:"Amphi B",
-        matin:true,
-        aprem:false,  
-        },
-        {
-        nom:"Amphi E",
-        matin:true,
-        aprem:false,  
-        },
-        {
-        nom:"Amphi G",
-        matin:true,
-        aprem:false,  
-        },
+    //    {
+    //     nom:"Amphi B",
+    //     matin:true,
+    //     aprem:false,  
+    //     },
+    //     {
+    //     nom:"Amphi E",
+    //     matin:true,
+    //     aprem:false,  
+    //     },
+    //     {
+    //     nom:"Amphi G",
+    //     matin:true,
+    //     aprem:false,  
+    //     },
     
             ],
 
@@ -89,7 +89,7 @@ module.exports =
     
            
 
-    }
+    },
         
     
 

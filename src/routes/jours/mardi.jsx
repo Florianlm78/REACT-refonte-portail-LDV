@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../../css/salles.css';
+import salles from '../../salles';
 
-const Mardi = () => (
-  <p>
-    Mardi works!
-</p>
-)
 
-export default Mardi
+class Mardi extends Component {
+  render(){
+    
+
+      return(
+          <div>
+            {       
+                    
+                }
+          </div>
+          
+      )
+  }
+      
+
+}
+
+export default Mardi;
