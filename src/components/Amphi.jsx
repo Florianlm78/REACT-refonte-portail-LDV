@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 import salles from '../salles';
-import { Tableau } from './Table';
 import Mardi from '../routes/jours/Mardi'
 
-class Cellule extends Component {
+class Amphi extends Component {
     render(){
       
 
@@ -20,7 +19,7 @@ class Cellule extends Component {
 
 }
 
-export default Cellule;
+export default Amphi;
 
 /*
 console.log(salles.LUNDI.Amphi),
