@@ -1,0 +1,9 @@
+.calendarDays {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+h1 {
+    color: blanchedalmond;
+}
+
