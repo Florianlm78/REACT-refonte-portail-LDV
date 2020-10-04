@@ -21,11 +21,8 @@ function App() {
       <Router>
         <div className="nav">
           <header>
-            <section>
-              <h1> Refonte portail </h1>
-            </section>
-            <nav>
-              <ul>
+            <nav className="home-nav">
+              <ul className="home-ul">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/calendrier">Calendrier</Link></li>
                 <li><Link to="/salles">Salles</Link></li>

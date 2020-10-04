@@ -20,12 +20,8 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,14 +32,8 @@
   color: red;
 }
 
-nav {
-  color: black;
-  font-weight: 400;
-  background-color: sandybrown;
-  height: 50px;
-}
 
-ul{
+.home-ul{
   display: flex;
 }
 
@@ -54,11 +44,4 @@ a{
   color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

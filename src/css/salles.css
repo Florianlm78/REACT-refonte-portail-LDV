@@ -4,15 +4,15 @@
     border: solid 1px white;
     height: 180px;
     width: 250px;
+    margin: 0 10px;
 }
 
 .cards{
     display: flex;
+    
 }
 
-table,
-td {
-
-    padding: 0 10px;
+.salle-ul{
+    display: flex;
 }
 
