@@ -1,19 +1,27 @@
-.card
-{
-    background-color: rgb(25, 0, 255);
-    border: solid 1px white;
-    height: 180px;
-    width: 250px;
-    margin: 0 10px;
-}
 
-.cards{
-    display: flex;
-    
+main{
+    height: 100vh;
 }
-
 .salle-ul{
     display: flex;
     
+}
+section article{
+    display: flex;
+    justify-content: space-around;
+}
+section article:first-child div{
+    background-color: blanchedalmond;
+    width: calc((100% - 20px) / 4);
+    height: 40%;
+}
+section article div div{
+    display: flex;
+}
+
+section article:nth-child(2) div{
+    width: calc((100% - 20px) / 5);
+    background-color: coral;
+    height: 100%;
 }
 

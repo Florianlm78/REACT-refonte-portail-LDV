@@ -6,7 +6,7 @@ module.exports =
        "Amphi":[
         {
            nom:"Amphi A",
-           matin:true,
+           matin:false,
            aprem:false,  
        },
        {
@@ -30,7 +30,7 @@ module.exports =
        "Salles":[
         {
             nom:"E 105",
-            matin:true,
+            matin:false,
             aprem:false,  
         },
         {
