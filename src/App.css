@@ -13,10 +13,12 @@
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: #121212;
   }
   
- 
+.salle-ul{
+    background-color: #242424;
+}
   
   .home-ul{
     display: flex;

@@ -19,7 +19,7 @@ function Salles() {
 
 <Router>
         <div className="nav">
-          <header className="header-nav">
+          
             <nav className="salle-nav">
               <ul className="salle-ul">
                 <li><Link to="/lundi">Lundi</Link></li>
@@ -29,7 +29,7 @@ function Salles() {
                 <li><Link to="/vendredi">Vendredi</Link></li>
               </ul>
             </nav>
-          </header>
+      
           <main>
             <Switch>
               <Route exact path="/lundi" component={Lundi} />

@@ -14,7 +14,9 @@ class Lundi extends Component {
 
       return(
         <section>
+          <h2>PULV - Amphi</h2>
           <article>
+          
             {       
                     salles.LUNDI[0].Amphi.map((salle) => {
                         return (
@@ -37,7 +39,7 @@ class Lundi extends Component {
                     )
                 }
           </article>
-
+          <h2>ILV - IIM - Salle de cours</h2>
           <article>
             {
                 salles.LUNDI[0].Salles.map((salle) => {
