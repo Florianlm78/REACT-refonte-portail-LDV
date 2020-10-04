@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import '../css/cal-day.css';
 import '../App.css';
-// import CalendarDay from './CalendarMonth';
-
-
 
 
 const CalendarDay = ( {prof, salle, day}) => (
     
        
-            <div style={{width: + '18px' , height: + '100vh', border: 'solid'}}>
+            <div className="day">
                 <h1 className=""> {day}</h1>
                 <h2> Intervenant : </h2>
                 <h2> {prof} </h2>
