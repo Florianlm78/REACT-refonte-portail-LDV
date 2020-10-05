@@ -1,3 +1,8 @@
+## PERSONNES AYANT PARTICIPÉ AU PROJET
+
+Florian LE MOAL - Niveda SOUGOUMAR - Marvin MENSAH - Zeze BOSSE
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
